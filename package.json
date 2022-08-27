@@ -1,0 +1,14 @@
+{
+  "name": "csgogsi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon index.js",
+    "package": "pkg -t node16-win-x64 -o \"gsi plugin.exe\" index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
