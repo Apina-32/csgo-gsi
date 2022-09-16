@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         CS:GO Finder Extra
-// @namespace    https://greasyfork.org/users/779688
-// @version      0.2
 // @description  Uses a local NodeJS server to get player ids when spectating
+// @version      0.2
 // @author       Apina-32
+// @namespace    https://greasyfork.org/users/779688
+// @updateURL    https://github.com/Apina-32/csgo-gsi/raw/main/CSGO%20Finder%20Extra.user.js
+// @downloadURL  https://github.com/Apina-32/csgo-gsi/raw/main/CSGO%20Finder%20Extra.user.js
 // @match        http://localhost/
 // @match        https://csgofinder.eu/
 // @icon         https://icons.duckduckgo.com/ip2/undefined.localhost.ico
