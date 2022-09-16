@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CS:GO Finder Extra
 // @namespace    https://greasyfork.org/users/779688
-// @version      0.1
+// @version      0.2
 // @description  Uses a local NodeJS server to get player ids when spectating
 // @author       Apina-32
 // @match        http://localhost/
@@ -25,11 +25,7 @@
             },
             onload: response => {
                 console.log(response.response)
-                const input = document.querySelector('#searchField');
-                input.value = "";
-                JSON.parse(response.response).forEach(id => {
-                    input.value += id + " ";
-                });
+                document.querySelector('#searchField').value = JSON.parse(response.response).join(' ');
                 document.querySelector('#searchButton').click();
             }});
     }
